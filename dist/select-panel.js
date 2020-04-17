@@ -234,15 +234,13 @@ var styles = {
     },
     search: {
         display: "block",
-
         maxWidth: "100%",
         borderRadius: "3px",
-
         boxSizing: 'border-box',
         height: '30px',
         lineHeight: '24px',
         border: '1px solid',
-        borderColor: '#dee2e4',
+        borderColor: 'black',
         padding: '10px',
         width: "100%",
         outline: "none"

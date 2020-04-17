@@ -82,33 +82,6 @@ module.exports = require("react");
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-var strings = {
-    selectSomeItems: "Select some items...",
-    allItemsAreSelected: "All items are selected",
-    selectAll: "Select All",
-    search: "Search"
-};
-
-function getString(key, overrideStrings) {
-    if (overrideStrings && overrideStrings[key]) {
-        return overrideStrings[key];
-    }
-
-    return strings[key];
-}
-
-exports.default = getString;
-
-/***/ }),
-/* 2 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -326,7 +299,7 @@ var styles = {
 exports.default = SelectItem;
 
 /***/ }),
-/* 3 */
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -515,7 +488,8 @@ var Dropdown = function (_Component) {
             var _props2 = this.props,
                 children = _props2.children,
                 isLoading = _props2.isLoading,
-                disabled = _props2.disabled;
+                disabled = _props2.disabled,
+                labelledBy = _props2.labelledBy;
 
 
             var expandedHeaderStyle = expanded ? styles.dropdownHeaderExpanded : undefined;
@@ -534,6 +508,7 @@ var Dropdown = function (_Component) {
                     className: 'dropdown',
                     tabIndex: '0',
                     role: 'combobox',
+                    'aria-labelledby': labelledBy,
                     'aria-expanded': expanded,
                     'aria-readonly': 'true',
                     'aria-disabled': disabled,
@@ -629,7 +604,7 @@ var styles = {
     },
     dropdownChildren: {
         boxSizing: 'border-box',
-        bottom: 0,
+        bottom: 1,
         color: '#333',
         left: 0,
         lineHeight: '34px',
@@ -642,6 +617,7 @@ var styles = {
         overflow: 'hidden',
         textOverflow: 'ellipsis',
         whiteSpace: 'nowrap'
+
     },
     disabledDropdownChildren: {
         opacity: 0.5
@@ -654,11 +630,11 @@ var styles = {
     dropdownHeader: {
         boxSizing: 'border-box',
         backgroundColor: '#fff',
-        borderColor: '#d9d9d9 #ccc #b3b3b3',
+        borderColor: 'black',
         borderRadius: 4,
         borderBottomRightRadius: 4,
         borderBottomLeftRadius: 4,
-        border: '1px solid #ccc',
+        border: 'solid 1px black',
         color: '#333',
         cursor: 'default',
         display: 'table',
@@ -677,6 +653,7 @@ var styles = {
     dropdownHeaderExpanded: {
         borderBottomRightRadius: '0px',
         borderBottomLeftRadius: '0px'
+
     },
     loadingContainer: {
         cursor: 'pointer',
@@ -688,8 +665,8 @@ var styles = {
         borderBottomRightRadius: '4px',
         borderBottomLeftRadius: '4px',
         backgroundColor: '#fff',
-        border: '1px solid #ccc',
-        borderTopColor: '#e6e6e6',
+        border: '1px solid black',
+        borderTopColor: 'black',
         boxShadow: '0 1px 0 rgba(0, 0, 0, 0.06)',
         boxSizing: 'border-box',
         marginTop: '-1px',
@@ -725,7 +702,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _selectItem = __webpack_require__(2);
+var _selectItem = __webpack_require__(1);
 
 var _selectItem2 = _interopRequireDefault(_selectItem);
 
@@ -945,15 +922,13 @@ var styles = {
     },
     search: {
         display: "block",
-
         maxWidth: "100%",
         borderRadius: "3px",
-
         boxSizing: 'border-box',
         height: '30px',
         lineHeight: '24px',
         border: '1px solid',
-        borderColor: '#dee2e4',
+        borderColor: 'black',
         padding: '10px',
         width: "100%",
         outline: "none"
@@ -996,9 +971,13 @@ var _selectPanel = __webpack_require__(4);
 
 var _selectPanel2 = _interopRequireDefault(_selectPanel);
 
-var _getString = __webpack_require__(1);
+var _getString = __webpack_require__(2);
 
 var _getString2 = _interopRequireDefault(_getString);
+
+var _selectItem = __webpack_require__(1);
+
+var _selectItem2 = _interopRequireDefault(_selectItem);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1123,7 +1102,8 @@ var MultiSelect = function (_Component) {
                 filterOptions = _props3.filterOptions,
                 shouldToggleOnHover = _props3.shouldToggleOnHover,
                 hasSelectAll = _props3.hasSelectAll,
-                overrideStrings = _props3.overrideStrings;
+                overrideStrings = _props3.overrideStrings,
+                labelledBy = _props3.labelledBy;
 
 
             return _react2.default.createElement(
@@ -1147,7 +1127,8 @@ var MultiSelect = function (_Component) {
                             filterOptions: filterOptions,
                             overrideStrings: overrideStrings
                         },
-                        disabled: disabled
+                        disabled: disabled,
+                        labelledBy: labelledBy
                     },
                     this.renderHeader()
                 )
@@ -1307,7 +1288,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _selectItem = __webpack_require__(2);
+var _selectItem = __webpack_require__(1);
 
 var _selectItem2 = _interopRequireDefault(_selectItem);
 

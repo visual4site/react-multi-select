@@ -14,8 +14,8 @@ type Props = {
     contentProps: Object,
     isLoading?: boolean,
     disabled?: boolean,
-    shouldToggleOnHover?: boolean
-    labelledBy?: string,
+    shouldToggleOnHover?: boolean,
+    labelledBy?: string
 };
 
 type State = {
@@ -244,7 +244,7 @@ const styles = {
     },
     dropdownChildren: {
         boxSizing: 'border-box',
-        bottom: 0,
+        bottom: 1,
         color: '#333',
         left: 0,
         lineHeight: '34px',
@@ -257,6 +257,7 @@ const styles = {
         overflow: 'hidden',
         textOverflow: 'ellipsis',
         whiteSpace: 'nowrap',
+        
     },
     disabledDropdownChildren: {
         opacity: 0.5,
@@ -269,11 +270,11 @@ const styles = {
     dropdownHeader: {
         boxSizing: 'border-box',
         backgroundColor: '#fff',
-        borderColor: '#d9d9d9 #ccc #b3b3b3',
+        borderColor: 'black',
         borderRadius: 4,
         borderBottomRightRadius: 4,
         borderBottomLeftRadius: 4,
-        border: '1px solid #ccc',
+        border: 'solid 1px black',
         color: '#333',
         cursor: 'default',
         display: 'table',
@@ -292,6 +293,7 @@ const styles = {
     dropdownHeaderExpanded: {
         borderBottomRightRadius: '0px',
         borderBottomLeftRadius: '0px',
+
     },
     loadingContainer: {
         cursor: 'pointer',
@@ -303,8 +305,8 @@ const styles = {
         borderBottomRightRadius: '4px',
         borderBottomLeftRadius: '4px',
         backgroundColor: '#fff',
-        border: '1px solid #ccc',
-        borderTopColor: '#e6e6e6',
+        border: '1px solid black',
+        borderTopColor: 'black',
         boxShadow: '0 1px 0 rgba(0, 0, 0, 0.06)',
         boxSizing: 'border-box',
         marginTop: '-1px',
