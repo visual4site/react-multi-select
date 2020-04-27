@@ -240,7 +240,7 @@ var styles = {
         height: '30px',
         lineHeight: '24px',
         border: '1px solid',
-        borderColor: 'black',
+        borderColor: 'rgba(0, 0, 0, 0.23)',
         padding: '10px',
         width: "100%",
         outline: "none"
