@@ -198,7 +198,8 @@ var styles = {
         color: '#666666',
         cursor: 'pointer',
         display: 'block',
-        padding: '8px 10px'
+        padding: '8px 10px',
+        fontSize: '18px'
     },
     itemContainerHover: {
         backgroundColor: '#ebf5ff',

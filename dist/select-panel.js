@@ -230,7 +230,8 @@ var SelectPanel = function (_Component) {
 
 var styles = {
     panel: {
-        boxSizing: 'border-box'
+        boxSizing: 'border-box',
+        fontSize: 18
     },
     search: {
         display: "block",
@@ -243,7 +244,8 @@ var styles = {
         borderColor: 'rgba(0, 0, 0, 0.23)',
         padding: '10px',
         width: "100%",
-        outline: "none"
+        outline: "none",
+        fontSize: 18
     },
     searchFocused: {
         borderColor: "#78c008"

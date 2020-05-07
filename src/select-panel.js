@@ -195,6 +195,7 @@ class SelectPanel extends Component<Props, State> {
 const styles = {
     panel: {
         boxSizing : 'border-box',
+        fontSize: 18
     },
     search: {
         display: "block",
@@ -208,6 +209,7 @@ const styles = {
         padding: '10px',
         width: "100%",
         outline: "none",
+        fontSize: 18
     },
     searchFocused: {
         borderColor: "#78c008",

@@ -155,6 +155,7 @@ const styles = {
         cursor: 'pointer',
         display: 'block',
         padding: '8px 10px',
+        fontSize: '18px'
     },
     itemContainerHover: {
         backgroundColor: '#ebf5ff',
