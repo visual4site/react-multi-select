@@ -278,7 +278,9 @@ var styles = {
         cursor: 'pointer',
         display: 'block',
         padding: '8px 10px',
-        fontSize: '18px'
+        fontSize: '18px',
+        fontFamily: 'Avenir Light'
+
     },
     itemContainerHover: {
         backgroundColor: '#ebf5ff',
@@ -290,7 +292,9 @@ var styles = {
         borderBottomRightRadius: '2px',
         borderTopRightRadius: '2px',
         cursor: 'default',
-        padding: '2px 5px'
+        padding: '2px 5px',
+        fontSize: '18px',
+        fontFamily: 'Avenir Light'
     },
     labelDisabled: {
         opacity: 0.5
@@ -645,7 +649,10 @@ var styles = {
         outline: 'none',
         overflow: 'hidden',
         position: 'relative',
-        width: '100%'
+        width: '100%',
+        fontSize: 18,
+        fontFamily: 'Avenir Light'
+
     },
     dropdownHeaderFocused: {
         borderColor: focusColor,
@@ -677,6 +684,7 @@ var styles = {
         width: '100%',
         zIndex: 1,
         overflowY: 'auto'
+
     }
 };
 
@@ -919,8 +927,8 @@ var SelectPanel = function (_Component) {
 
 var styles = {
     panel: {
-        boxSizing: 'border-box',
-        fontSize: 18
+        boxSizing: 'border-box'
+
     },
     search: {
         display: "block",
@@ -934,15 +942,20 @@ var styles = {
         padding: '10px',
         width: "100%",
         outline: "none",
-        fontSize: 18
+        fontSize: 18,
+        fontFamily: 'Avenir Light'
     },
     searchFocused: {
-        borderColor: "#78c008"
+        borderColor: "#78c008",
+        fontSize: 18,
+        fontFamily: 'Avenir Light'
     },
     searchContainer: {
         width: "100%",
         boxSizing: 'border-box',
-        padding: "0.5em"
+        padding: "0.5em",
+        fontSize: 18,
+        fontFamily: 'Avenir Light'
     }
 };
 
@@ -1411,10 +1424,14 @@ var SelectList = function (_Component) {
 var styles = {
     list: {
         margin: 0,
-        paddingLeft: 0
+        paddingLeft: 0,
+        fontSize: 18,
+        fontFamily: 'Avenir Light'
     },
     listItem: {
-        listStyle: 'none'
+        listStyle: 'none',
+        fontSize: 18,
+        fontFamily: 'Avenir Light'
     }
 };
 

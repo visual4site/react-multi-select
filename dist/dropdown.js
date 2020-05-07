@@ -312,7 +312,10 @@ var styles = {
         outline: 'none',
         overflow: 'hidden',
         position: 'relative',
-        width: '100%'
+        width: '100%',
+        fontSize: 18,
+        fontFamily: 'Avenir Light'
+
     },
     dropdownHeaderFocused: {
         borderColor: focusColor,
@@ -344,6 +347,7 @@ var styles = {
         width: '100%',
         zIndex: 1,
         overflowY: 'auto'
+
     }
 };
 

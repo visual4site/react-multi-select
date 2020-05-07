@@ -130,10 +130,14 @@ var SelectList = function (_Component) {
 var styles = {
     list: {
         margin: 0,
-        paddingLeft: 0
+        paddingLeft: 0,
+        fontSize: 18,
+        fontFamily: 'Avenir Light'
     },
     listItem: {
-        listStyle: 'none'
+        listStyle: 'none',
+        fontSize: 18,
+        fontFamily: 'Avenir Light'
     }
 };
 

@@ -230,8 +230,8 @@ var SelectPanel = function (_Component) {
 
 var styles = {
     panel: {
-        boxSizing: 'border-box',
-        fontSize: 18
+        boxSizing: 'border-box'
+
     },
     search: {
         display: "block",
@@ -245,15 +245,20 @@ var styles = {
         padding: '10px',
         width: "100%",
         outline: "none",
-        fontSize: 18
+        fontSize: 18,
+        fontFamily: 'Avenir Light'
     },
     searchFocused: {
-        borderColor: "#78c008"
+        borderColor: "#78c008",
+        fontSize: 18,
+        fontFamily: 'Avenir Light'
     },
     searchContainer: {
         width: "100%",
         boxSizing: 'border-box',
-        padding: "0.5em"
+        padding: "0.5em",
+        fontSize: 18,
+        fontFamily: 'Avenir Light'
     }
 };
 

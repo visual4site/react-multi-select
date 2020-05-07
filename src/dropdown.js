@@ -285,6 +285,9 @@ const styles = {
         overflow: 'hidden',
         position: 'relative',
         width: '100%',
+        fontSize: 18,
+        fontFamily: 'Avenir Light'
+
     },
     dropdownHeaderFocused: {
         borderColor: focusColor,
@@ -316,6 +319,7 @@ const styles = {
         width: '100%',
         zIndex: 1,
         overflowY: 'auto',
+        
     },
 };
 
