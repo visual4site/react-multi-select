@@ -147,7 +147,7 @@ class MultiSelect extends Component<Props> {
 
 const styles = {
     noneSelected: {
-        color: "#aaa",
+        color: "#828282",
     },
 };
 

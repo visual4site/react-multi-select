@@ -197,7 +197,7 @@ MultiSelect.defaultProps = {
 
 var styles = {
     noneSelected: {
-        color: "#aaa"
+        color: "#828282"
     }
 };
 
