@@ -314,7 +314,8 @@ var styles = {
         position: 'relative',
         width: '100%',
         fontSize: 16,
-        fontFamily: 'Roboto'
+        fontFamily: 'Roboto',
+        fontWeight: 400
 
     },
     dropdownHeaderFocused: {

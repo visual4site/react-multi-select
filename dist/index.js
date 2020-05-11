@@ -11,6 +11,8 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+require('typeface-roboto');
+
 var _dropdown = require('./dropdown.js');
 
 var _dropdown2 = _interopRequireDefault(_dropdown);

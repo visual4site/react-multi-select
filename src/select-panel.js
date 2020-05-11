@@ -210,19 +210,22 @@ const styles = {
         width: "100%",
         outline: "none",
         fontSize: 16,
-        fontFamily: 'Roboto'
+        fontFamily: 'Roboto',
+        fontWeight: 400,
     },
     searchFocused: {
         borderColor: "#78c008",
         fontSize: 16,
         fontFamily: 'Roboto',
+        fontWeight: 400,
     },
     searchContainer: {
         width: "100%",
         boxSizing : 'border-box',
         padding: "0.5em",
         fontSize: 16,
-        fontFamily: 'Roboto'
+        fontFamily: 'Roboto',
+        fontWeight: 400,
     },
 };
 

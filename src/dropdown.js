@@ -287,6 +287,7 @@ const styles = {
         width: '100%',
         fontSize: 16,
         fontFamily: 'Roboto',
+        fontWeight: 400,
 
     },
     dropdownHeaderFocused: {

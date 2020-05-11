@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -278,7 +278,7 @@ var styles = {
         cursor: 'pointer',
         display: 'block',
         padding: '8px 10px',
-        fontSize: '18px',
+        fontSize: '16px',
         fontFamily: 'Roboto'
 
     },
@@ -293,7 +293,7 @@ var styles = {
         borderTopRightRadius: '2px',
         cursor: 'default',
         padding: '2px 5px',
-        fontSize: '18px',
+        fontSize: '16px',
         fontFamily: 'Roboto'
     },
     labelDisabled: {
@@ -349,7 +349,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _loadingIndicator = __webpack_require__(6);
+var _loadingIndicator = __webpack_require__(7);
 
 var _loadingIndicator2 = _interopRequireDefault(_loadingIndicator);
 
@@ -651,7 +651,8 @@ var styles = {
         position: 'relative',
         width: '100%',
         fontSize: 16,
-        fontFamily: 'Roboto'
+        fontFamily: 'Roboto',
+        fontWeight: 400
 
     },
     dropdownHeaderFocused: {
@@ -705,7 +706,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _fuzzyMatchUtils = __webpack_require__(8);
+var _fuzzyMatchUtils = __webpack_require__(9);
 
 var _react = __webpack_require__(0);
 
@@ -715,7 +716,7 @@ var _selectItem = __webpack_require__(1);
 
 var _selectItem2 = _interopRequireDefault(_selectItem);
 
-var _selectList = __webpack_require__(7);
+var _selectList = __webpack_require__(8);
 
 var _selectList2 = _interopRequireDefault(_selectList);
 
@@ -943,19 +944,22 @@ var styles = {
         width: "100%",
         outline: "none",
         fontSize: 16,
-        fontFamily: 'Roboto'
+        fontFamily: 'Roboto',
+        fontWeight: 400
     },
     searchFocused: {
         borderColor: "#78c008",
         fontSize: 16,
-        fontFamily: 'Roboto'
+        fontFamily: 'Roboto',
+        fontWeight: 400
     },
     searchContainer: {
         width: "100%",
         boxSizing: 'border-box',
         padding: "0.5em",
         fontSize: 16,
-        fontFamily: 'Roboto'
+        fontFamily: 'Roboto',
+        fontWeight: 400
     }
 };
 
@@ -963,6 +967,12 @@ exports.default = SelectPanel;
 
 /***/ }),
 /* 5 */
+/***/ (function(module, exports) {
+
+throw new Error("Module parse failed: /Users/prajwal/Documents/Projects/v4site-campaigns-namestrings/reactmultiselect-namechanged/node_modules/typeface-roboto/index.css Unexpected character '@' (2:0)\nYou may need an appropriate loader to handle this file type.\n| /* roboto-100normal - latin */\n| @font-face {\n|   font-family: 'Roboto';\n|   font-style: normal;");
+
+/***/ }),
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -978,6 +988,8 @@ var _createClass = function () { function defineProperties(target, props) { for 
 var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
+
+__webpack_require__(5);
 
 var _dropdown = __webpack_require__(3);
 
@@ -1173,7 +1185,7 @@ exports.SelectPanel = _selectPanel2.default;
 exports.SelectItem = _selectItem2.default;
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1288,7 +1300,7 @@ var styles = {
 exports.default = LoadingIndicator;
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1438,7 +1450,7 @@ var styles = {
 exports.default = SelectList;
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports) {
 
 module.exports = require("fuzzy-match-utils");

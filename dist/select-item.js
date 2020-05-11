@@ -199,7 +199,7 @@ var styles = {
         cursor: 'pointer',
         display: 'block',
         padding: '8px 10px',
-        fontSize: '18px',
+        fontSize: '16px',
         fontFamily: 'Roboto'
 
     },
@@ -214,7 +214,7 @@ var styles = {
         borderTopRightRadius: '2px',
         cursor: 'default',
         padding: '2px 5px',
-        fontSize: '18px',
+        fontSize: '16px',
         fontFamily: 'Roboto'
     },
     labelDisabled: {
