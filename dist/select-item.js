@@ -200,7 +200,7 @@ var styles = {
         display: 'block',
         padding: '8px 10px',
         fontSize: '18px',
-        fontFamily: 'Avenir Light'
+        fontFamily: 'Roboto'
 
     },
     itemContainerHover: {
@@ -215,7 +215,7 @@ var styles = {
         cursor: 'default',
         padding: '2px 5px',
         fontSize: '18px',
-        fontFamily: 'Avenir Light'
+        fontFamily: 'Roboto'
     },
     labelDisabled: {
         opacity: 0.5

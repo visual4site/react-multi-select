@@ -314,7 +314,7 @@ var styles = {
         position: 'relative',
         width: '100%',
         fontSize: 18,
-        fontFamily: 'Avenir Light'
+        fontFamily: 'Roboto'
 
     },
     dropdownHeaderFocused: {
