@@ -313,7 +313,7 @@ var styles = {
         overflow: 'hidden',
         position: 'relative',
         width: '100%',
-        fontSize: 18,
+        fontSize: 16,
         fontFamily: 'Roboto'
 
     },

@@ -650,7 +650,7 @@ var styles = {
         overflow: 'hidden',
         position: 'relative',
         width: '100%',
-        fontSize: 18,
+        fontSize: 16,
         fontFamily: 'Roboto'
 
     },
@@ -942,20 +942,20 @@ var styles = {
         padding: '10px',
         width: "100%",
         outline: "none",
-        fontSize: 18,
-        fontFamily: 'Avenir Light'
+        fontSize: 16,
+        fontFamily: 'Roboto'
     },
     searchFocused: {
         borderColor: "#78c008",
-        fontSize: 18,
-        fontFamily: 'Avenir Light'
+        fontSize: 16,
+        fontFamily: 'Roboto'
     },
     searchContainer: {
         width: "100%",
         boxSizing: 'border-box',
         padding: "0.5em",
-        fontSize: 18,
-        fontFamily: 'Avenir Light'
+        fontSize: 16,
+        fontFamily: 'Roboto'
     }
 };
 
