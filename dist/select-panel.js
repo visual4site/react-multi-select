@@ -247,13 +247,15 @@ var styles = {
         outline: "none",
         fontSize: 16,
         fontFamily: 'Roboto',
-        fontWeight: 400
+        fontWeight: 400,
+        color: '#828282'
     },
     searchFocused: {
         borderColor: "#78c008",
         fontSize: 16,
         fontFamily: 'Roboto',
-        fontWeight: 400
+        fontWeight: 400,
+        color: '#828282'
     },
     searchContainer: {
         width: "100%",
@@ -261,7 +263,8 @@ var styles = {
         padding: "0.5em",
         fontSize: 16,
         fontFamily: 'Roboto',
-        fontWeight: 400
+        fontWeight: 400,
+        color: '#828282'
     }
 };
 

@@ -273,7 +273,7 @@ var styles = {
     dropdownChildren: {
         boxSizing: 'border-box',
         bottom: 1,
-        color: '#333',
+        color: '#828282',
         left: 0,
         lineHeight: '34px',
         paddingLeft: 10,
@@ -303,7 +303,6 @@ var styles = {
         borderBottomRightRadius: 4,
         borderBottomLeftRadius: 4,
         border: 'solid 1px rgba(0, 0, 0, 0.23)',
-        color: '#333',
         cursor: 'default',
         display: 'table',
         borderSpacing: 0,
@@ -315,7 +314,8 @@ var styles = {
         width: '100%',
         fontSize: 16,
         fontFamily: 'Roboto',
-        fontWeight: 400
+        fontWeight: 400,
+        color: '#828282'
 
     },
     dropdownHeaderFocused: {

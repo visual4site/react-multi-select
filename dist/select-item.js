@@ -195,12 +195,12 @@ var styles = {
     itemContainer: {
         boxSizing: 'border-box',
         backgroundColor: '#fff',
-        color: '#666666',
         cursor: 'pointer',
         display: 'block',
         padding: '8px 10px',
         fontSize: '16px',
-        fontFamily: 'Roboto'
+        fontFamily: 'Roboto',
+        color: '#828282'
 
     },
     itemContainerHover: {

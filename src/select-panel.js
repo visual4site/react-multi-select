@@ -212,12 +212,14 @@ const styles = {
         fontSize: 16,
         fontFamily: 'Roboto',
         fontWeight: 400,
+        color: '#828282'
     },
     searchFocused: {
         borderColor: "#78c008",
         fontSize: 16,
         fontFamily: 'Roboto',
         fontWeight: 400,
+        color: '#828282'
     },
     searchContainer: {
         width: "100%",
@@ -226,6 +228,7 @@ const styles = {
         fontSize: 16,
         fontFamily: 'Roboto',
         fontWeight: 400,
+        color: '#828282'
     },
 };
 
