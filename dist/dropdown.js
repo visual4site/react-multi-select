@@ -4,6 +4,8 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
+var _dropdownHeader;
+
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -297,7 +299,7 @@ var styles = {
         boxSizing: 'border-box',
         outline: 'none'
     },
-    dropdownHeader: _defineProperty({
+    dropdownHeader: (_dropdownHeader = {
         boxSizing: 'border-box',
         backgroundColor: '#fff',
         borderColor: 'rgba(0, 0, 0, 0.23)',
@@ -316,9 +318,8 @@ var styles = {
         position: 'relative',
         width: '100%',
         fontSize: 16,
-        fontFamily: 'Avenir-light',
-        fontWeight: 400
-    }, 'color', '#828282'),
+        fontFamily: 'Avenir LT W01_35 Light1475496'
+    }, _defineProperty(_dropdownHeader, 'fontSize', 18), _defineProperty(_dropdownHeader, 'fontWeight', 300), _defineProperty(_dropdownHeader, 'fontStretch', 'normal'), _defineProperty(_dropdownHeader, 'letterSpacing', 'normal'), _defineProperty(_dropdownHeader, 'color', '#828282'), _dropdownHeader),
     dropdownHeaderFocused: {
         borderColor: focusColor,
         boxShadow: 'none'

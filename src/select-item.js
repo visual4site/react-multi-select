@@ -155,8 +155,11 @@ const styles = {
         cursor: 'pointer',
         display: 'block',
         padding: '8px 10px',
-        fontSize: '16px',
-        fontFamily: 'Avenir-light',
+        fontFamily:'Avenir LT W01_35 Light1475496',
+        fontSize: 18,
+        fontWeight: 300,
+        fontStretch: 'normal',
+        letterSpacing: 'normal',
         color: '#828282'
 
     },
@@ -171,8 +174,11 @@ const styles = {
         borderTopRightRadius: '2px',
         cursor: 'default',
         padding: '2px 5px',
-        fontSize: '16px',
-        fontFamily: 'Avenir-light',
+        fontFamily:'Avenir LT W01_35 Light1475496',
+        fontSize: 18,
+        fontWeight: 300,
+        fontStretch: 'normal',
+        letterSpacing: 'normal',
     },
     labelDisabled: {
         opacity: 0.5,

@@ -18,6 +18,7 @@ import SelectPanel from './select-panel.js';
 import getString from './get-string.js';
 import SelectItem from './select-item.js';
 
+
 import type {
     Option,
 } from './select-item.js';
@@ -117,7 +118,7 @@ class MultiSelect extends Component<Props> {
             overrideStrings,
             labelledBy,
         } = this.props;
-
+        
         return <div className="multi-select">
             <Dropdown
                 isLoading={isLoading}
@@ -146,7 +147,7 @@ class MultiSelect extends Component<Props> {
 
 const styles = {
     noneSelected: {
-        color: "#aaa",
+        color: "#828282",
     },
 };
 

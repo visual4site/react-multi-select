@@ -280,8 +280,11 @@ var styles = {
         cursor: 'pointer',
         display: 'block',
         padding: '8px 10px',
-        fontSize: '16px',
-        fontFamily: 'Avenir-light'
+        fontFamily: 'Avenir LT W01_35 Light1475496',
+        fontSize: 18,
+        fontWeight: 300,
+        fontStretch: 'normal',
+        letterSpacing: 'normal'
     }, "color", '#828282'),
     itemContainerHover: {
         backgroundColor: '#ebf5ff',
@@ -294,8 +297,11 @@ var styles = {
         borderTopRightRadius: '2px',
         cursor: 'default',
         padding: '2px 5px',
-        fontSize: '16px',
-        fontFamily: 'Avenir-light'
+        fontFamily: 'Avenir LT W01_35 Light1475496',
+        fontSize: 18,
+        fontWeight: 300,
+        fontStretch: 'normal',
+        letterSpacing: 'normal'
     },
     labelDisabled: {
         opacity: 0.5
@@ -341,6 +347,8 @@ exports.default = getString;
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
+
+var _dropdownHeader;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -635,7 +643,7 @@ var styles = {
         boxSizing: 'border-box',
         outline: 'none'
     },
-    dropdownHeader: _defineProperty({
+    dropdownHeader: (_dropdownHeader = {
         boxSizing: 'border-box',
         backgroundColor: '#fff',
         borderColor: 'rgba(0, 0, 0, 0.23)',
@@ -654,9 +662,8 @@ var styles = {
         position: 'relative',
         width: '100%',
         fontSize: 16,
-        fontFamily: 'Avenir-light',
-        fontWeight: 400
-    }, 'color', '#828282'),
+        fontFamily: 'Avenir LT W01_35 Light1475496'
+    }, _defineProperty(_dropdownHeader, 'fontSize', 18), _defineProperty(_dropdownHeader, 'fontWeight', 300), _defineProperty(_dropdownHeader, 'fontStretch', 'normal'), _defineProperty(_dropdownHeader, 'letterSpacing', 'normal'), _defineProperty(_dropdownHeader, 'color', '#828282'), _dropdownHeader),
     dropdownHeaderFocused: {
         borderColor: focusColor,
         boxShadow: 'none'
@@ -945,25 +952,31 @@ var styles = {
         padding: '10px',
         width: "100%",
         outline: "none",
-        fontSize: 16,
-        fontFamily: 'Avenir-light',
-        fontWeight: 400,
+        fontFamily: 'Avenir LT W01_35 Light1475496',
+        fontSize: 18,
+        fontWeight: 300,
+        fontStretch: 'normal',
+        letterSpacing: 'normal',
         color: '#828282'
     },
     searchFocused: {
         borderColor: "#78c008",
-        fontSize: 16,
-        fontFamily: 'Avenir-light',
-        fontWeight: 400,
+        fontFamily: 'Avenir LT W01_35 Light1475496',
+        fontSize: 18,
+        fontWeight: 300,
+        fontStretch: 'normal',
+        letterSpacing: 'normal',
         color: '#828282'
     },
     searchContainer: {
         width: "100%",
         boxSizing: 'border-box',
         padding: "0.5em",
-        fontSize: 16,
-        fontFamily: 'Avenir-light',
-        fontWeight: 400,
+        fontFamily: 'Avenir LT W01_35 Light1475496',
+        fontSize: 18,
+        fontWeight: 300,
+        fontStretch: 'normal',
+        letterSpacing: 'normal',
         color: '#828282'
     }
 };
@@ -1172,7 +1185,7 @@ MultiSelect.defaultProps = {
 
 var styles = {
     noneSelected: {
-        color: "#aaa"
+        color: "#828282"
     }
 };
 

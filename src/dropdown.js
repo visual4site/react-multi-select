@@ -286,8 +286,11 @@ const styles = {
         position: 'relative',
         width: '100%',
         fontSize: 16,
-        fontFamily: 'Avenir-light',
-        fontWeight: 400,
+        fontFamily:'Avenir LT W01_35 Light1475496',
+        fontSize: 18,
+        fontWeight: 300,
+        fontStretch: 'normal',
+        letterSpacing: 'normal',
         color: '#828282'
 
     },
