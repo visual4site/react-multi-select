@@ -210,19 +210,25 @@ const styles = {
         width: "100%",
         outline: "none",
         fontSize: 16,
-        fontFamily: 'Roboto'
+        fontFamily: 'Avenir-light',
+        fontWeight: 400,
+        color: '#828282'
     },
     searchFocused: {
         borderColor: "#78c008",
         fontSize: 16,
-        fontFamily: 'Roboto',
+        fontFamily: 'Avenir-light',
+        fontWeight: 400,
+        color: '#828282'
     },
     searchContainer: {
         width: "100%",
         boxSizing : 'border-box',
         padding: "0.5em",
         fontSize: 16,
-        fontFamily: 'Roboto'
+        fontFamily: 'Avenir-light',
+        fontWeight: 400,
+        color: '#828282'
     },
 };
 

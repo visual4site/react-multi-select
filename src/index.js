@@ -13,7 +13,6 @@
  * - isLoading: Show a loading indicator
  */
 import React, {Component} from 'react';
-
 import Dropdown from './dropdown.js';
 import SelectPanel from './select-panel.js';
 import getString from './get-string.js';

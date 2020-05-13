@@ -286,7 +286,9 @@ const styles = {
         position: 'relative',
         width: '100%',
         fontSize: 16,
-        fontFamily: 'Roboto',
+        fontFamily: 'Avenir-light',
+        fontWeight: 400,
+        color: '#828282'
 
     },
     dropdownHeaderFocused: {

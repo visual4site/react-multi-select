@@ -93,6 +93,8 @@ var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -271,17 +273,16 @@ SelectItem.defaultProps = {
 
 
 var styles = {
-    itemContainer: {
+    itemContainer: _defineProperty({
         boxSizing: 'border-box',
         backgroundColor: '#fff',
         color: '#666666',
         cursor: 'pointer',
         display: 'block',
         padding: '8px 10px',
-        fontSize: '18px',
-        fontFamily: 'Roboto'
-
-    },
+        fontSize: '16px',
+        fontFamily: 'Avenir-light'
+    }, "color", '#828282'),
     itemContainerHover: {
         backgroundColor: '#ebf5ff',
         outline: 0
@@ -293,8 +294,8 @@ var styles = {
         borderTopRightRadius: '2px',
         cursor: 'default',
         padding: '2px 5px',
-        fontSize: '18px',
-        fontFamily: 'Roboto'
+        fontSize: '16px',
+        fontFamily: 'Avenir-light'
     },
     labelDisabled: {
         opacity: 0.5
@@ -354,6 +355,8 @@ var _loadingIndicator = __webpack_require__(6);
 var _loadingIndicator2 = _interopRequireDefault(_loadingIndicator);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -632,7 +635,7 @@ var styles = {
         boxSizing: 'border-box',
         outline: 'none'
     },
-    dropdownHeader: {
+    dropdownHeader: _defineProperty({
         boxSizing: 'border-box',
         backgroundColor: '#fff',
         borderColor: 'rgba(0, 0, 0, 0.23)',
@@ -651,9 +654,9 @@ var styles = {
         position: 'relative',
         width: '100%',
         fontSize: 16,
-        fontFamily: 'Roboto'
-
-    },
+        fontFamily: 'Avenir-light',
+        fontWeight: 400
+    }, 'color', '#828282'),
     dropdownHeaderFocused: {
         borderColor: focusColor,
         boxShadow: 'none'
@@ -943,19 +946,25 @@ var styles = {
         width: "100%",
         outline: "none",
         fontSize: 16,
-        fontFamily: 'Roboto'
+        fontFamily: 'Avenir-light',
+        fontWeight: 400,
+        color: '#828282'
     },
     searchFocused: {
         borderColor: "#78c008",
         fontSize: 16,
-        fontFamily: 'Roboto'
+        fontFamily: 'Avenir-light',
+        fontWeight: 400,
+        color: '#828282'
     },
     searchContainer: {
         width: "100%",
         boxSizing: 'border-box',
         padding: "0.5em",
         fontSize: 16,
-        fontFamily: 'Roboto'
+        fontFamily: 'Avenir-light',
+        fontWeight: 400,
+        color: '#828282'
     }
 };
 

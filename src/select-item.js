@@ -155,8 +155,9 @@ const styles = {
         cursor: 'pointer',
         display: 'block',
         padding: '8px 10px',
-        fontSize: '18px',
-        fontFamily: 'Roboto',
+        fontSize: '16px',
+        fontFamily: 'Avenir-light',
+        color: '#828282'
 
     },
     itemContainerHover: {
@@ -170,8 +171,8 @@ const styles = {
         borderTopRightRadius: '2px',
         cursor: 'default',
         padding: '2px 5px',
-        fontSize: '18px',
-        fontFamily: 'Roboto',
+        fontSize: '16px',
+        fontFamily: 'Avenir-light',
     },
     labelDisabled: {
         opacity: 0.5,

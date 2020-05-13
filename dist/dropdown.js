@@ -18,6 +18,8 @@ var _loadingIndicator2 = _interopRequireDefault(_loadingIndicator);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -295,7 +297,7 @@ var styles = {
         boxSizing: 'border-box',
         outline: 'none'
     },
-    dropdownHeader: {
+    dropdownHeader: _defineProperty({
         boxSizing: 'border-box',
         backgroundColor: '#fff',
         borderColor: 'rgba(0, 0, 0, 0.23)',
@@ -314,9 +316,9 @@ var styles = {
         position: 'relative',
         width: '100%',
         fontSize: 16,
-        fontFamily: 'Roboto'
-
-    },
+        fontFamily: 'Avenir-light',
+        fontWeight: 400
+    }, 'color', '#828282'),
     dropdownHeaderFocused: {
         borderColor: focusColor,
         boxShadow: 'none'
