@@ -285,7 +285,7 @@ var styles = {
         fontWeight: 300,
         fontStretch: 'normal',
         letterSpacing: 'normal'
-    }, "color", '#828282'),
+    }, "color", '000000'),
     itemContainerHover: {
         backgroundColor: '#ebf5ff',
         outline: 0
@@ -581,7 +581,7 @@ var Dropdown = function (_Component) {
     return Dropdown;
 }(_react.Component);
 
-var focusColor = '#78c008';
+var focusColor = '000000';
 
 var styles = {
     dropdownArrow: {

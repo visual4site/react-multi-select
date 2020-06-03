@@ -237,7 +237,7 @@ var Dropdown = function (_Component) {
     return Dropdown;
 }(_react.Component);
 
-var focusColor = '#78c008';
+var focusColor = '000000';
 
 var styles = {
     dropdownArrow: {

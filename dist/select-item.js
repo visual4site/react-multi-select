@@ -206,7 +206,7 @@ var styles = {
         fontWeight: 300,
         fontStretch: 'normal',
         letterSpacing: 'normal'
-    }, "color", '#828282'),
+    }, "color", '000000'),
     itemContainerHover: {
         backgroundColor: '#ebf5ff',
         outline: 0
